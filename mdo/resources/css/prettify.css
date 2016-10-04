@@ -1,0 +1,71 @@
+/* Pretty printing styles. Used with prettify.js.
+ *
+ * This version is slight modified based on the original version.
+ *
+ * Name:    Stanley Ng
+ * Email:   stanleyhlng@googlegroups.com
+ *
+ * Reference:
+ * http://code.google.com/p/google-code-prettify/source/browse/trunk/src/prettify.css
+ */
+.pln {
+  color: #000000; }
+
+.str {
+  color: #000000; }
+
+.kwd {
+  color: #000000; }
+
+.com {
+  color: #000000;
+}
+
+.typ {
+  color: #000000; }
+
+.lit {
+  color: #000000; }
+
+.pun {
+  color: #000000; }
+
+.opn {
+  color: #000000; }
+
+.clo {
+  color: #000000; }
+
+.tag {
+  color: #000000; }
+
+.atn {
+  color: #000000; }
+
+.atv {
+  color: #000000; }
+
+.dec {
+  color: #000000; }
+
+.var {
+  color: #000000; }
+
+.fun {
+  color: #000000; }
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+  background-color: #F7F8F9;
+  font-size : 0.8em;
+  padding: 10px;
+  border: 1px solid #E1E1E8; }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  color: #4c666c;
+  margin: 0 0 0 40px; }
+
+ol.linenums li {
+  line-height: 18px;
+  padding-left: 12px; }
